@@ -7,8 +7,6 @@
 #include <Arduino.h>
 #include <SPI.h>
 
-SPIClass hspi(HSPI);
-
 #if defined(ARDUINO_SAMD_MKRWAN1300)
 #define LORA_DEFAULT_SPI SPI1
 #define LORA_DEFAULT_SPI_FREQUENCY 200000
@@ -22,11 +20,14 @@ SPIClass hspi(HSPI);
 #define LORA_DEFAULT_RESET_PIN -1
 #define LORA_DEFAULT_DIO0_PIN LORA_IRQ
 #else
-#define LORA_DEFAULT_SPI hspi
+// #define LORA_DEFAULT_SPI hspi
 #define LORA_DEFAULT_SPI_FREQUENCY 8E6
-#define LORA_DEFAULT_SS_PIN 10
-#define LORA_DEFAULT_RESET_PIN 9
-#define LORA_DEFAULT_DIO0_PIN 2
+#define LORA_DEFAULT_RESET_PIN 25
+#define LORA_DEFAULT_DIO0_PIN 26
+#define LORA_DEFAULT_SS_PIN 27
+// #define LORA_DEFAULT_CLK_PIN 25
+// #define LORA_DEFAULT_MISO_PIN 26
+// #define LORA_DEFAULT_MOSI_PIN 27
 #endif
 
 #define PA_OUTPUT_RFO_PIN 0
@@ -122,7 +123,7 @@ private:
 
 private:
   SPISettings _spiSettings;
-  SPIClass *_spi;
+  SPIClass *_spi = new SPIClass(HSPI);
   int _ss;
   int _reset;
   int _dio0;

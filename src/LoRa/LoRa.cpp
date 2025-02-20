@@ -72,7 +72,7 @@
 #endif
 
 LoRaClass::LoRaClass() : _spiSettings(LORA_DEFAULT_SPI_FREQUENCY, MSBFIRST, SPI_MODE0),
-                         _spi(&LORA_DEFAULT_SPI),
+                         //_spi(&hspi),
                          _ss(LORA_DEFAULT_SS_PIN), _reset(LORA_DEFAULT_RESET_PIN), _dio0(LORA_DEFAULT_DIO0_PIN),
                          _frequency(0),
                          _packetIndex(0),
