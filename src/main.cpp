@@ -54,27 +54,9 @@ MPU6050lib mpu;
 void setup()
 {
 
-  // --- Setup iniziale -------------------------------------------------
-
-  // Sleep Setup
+  Serial.begin(115200);
 
   Wire.begin();
-  mpu.LowPowerAccelOnlyMPU6050();
-
-  uint64_t bitmask = BUTTON_PIN_BITMASK(GPIO_NUM_2) | BUTTON_PIN_BITMASK(GPIO_NUM_4);
-
-  esp_sleep_enable_ext1_wakeup(bitmask, ESP_EXT1_WAKEUP_ANY_HIGH);
-
-  uint32_t start = millis();
-  while (millis() - start < 1000)
-  {
-    if (!digitalRead(GPIO_NUM_4) && !digitalRead(GPIO_NUM_2))
-    {
-      esp_deep_sleep_start();
-    }
-  }
-
-  Serial.begin(115200);
 
   // Accel Setup
 
@@ -84,10 +66,6 @@ void setup()
 
   // Read the WHO_AM_I register, this is a good test of communication
   uint8_t c = mpu.readByte(MPU6050_ADDRESS, WHO_AM_I_MPU6050); // Read WHO_AM_I register for MPU-6050
-  Serial.print("I AM ");
-  Serial.print(c, HEX);
-  Serial.print(" I Should Be ");
-  Serial.println(MPU6050_ADDRESS, HEX);
 
   if (c == MPU6050_ADDRESS) // WHO_AM_I should always be 0x68
   {
@@ -137,6 +115,26 @@ void setup()
   // LoRa.receive();
 
   LoRa.sleep();
+
+  // --- Setup iniziale -------------------------------------------------
+
+  // Sleep Setup
+
+  uint64_t bitmask = BUTTON_PIN_BITMASK(GPIO_NUM_2);
+
+  esp_sleep_enable_ext1_wakeup(bitmask, ESP_EXT1_WAKEUP_ALL_LOW);
+
+  esp_sleep_enable_ext0_wakeup(GPIO_NUM_4, LOW);
+
+  uint32_t start = millis();
+  while (millis() - start < 1000)
+  {
+    if (digitalRead(GPIO_NUM_4) && digitalRead(GPIO_NUM_2))
+    {
+      mpu.LowPowerAccelOnlyMPU6050();
+      esp_deep_sleep_start();
+    }
+  }
 }
 
 void loop()
@@ -169,7 +167,6 @@ void loop()
   if (deltat > ACC_RATE_MS)
   {
 
-    // Print acceleration values in milligs!
     sprintf(tx_buffer,
             LORA_ACC_MSG,
             1000 * ax, // meas in mg
@@ -183,8 +180,21 @@ void loop()
     // Transmit
     sendLoRaMessage(tx_buffer, strnlen(tx_buffer, TX_BUFFER_LEN));
 
+    Serial.printf(LORA_ACC_MSG,
+                  1000 * ax, // meas in mg
+                  1000 * ay, // meas in mg
+                  1000 * az, // meas in mg
+                  gyrox,
+                  gyroy,
+                  gyroz,
+                  temperature);
+
     count = millis();
   }
+
+  /*delay(1000);
+  sprintf(tx_buffer, "cacca");
+  sendLoRaMessage(tx_buffer, strnlen(tx_buffer, TX_BUFFER_LEN));*/
 
   /*//Receive
   int packetSize = LoRa.parsePacket();
