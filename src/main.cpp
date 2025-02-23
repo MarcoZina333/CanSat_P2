@@ -3,7 +3,10 @@
 
 #define BUTTON_PIN_BITMASK(GPIO) (1ULL << GPIO) // 2 ^ GPIO_NUMBER in hex
 
-#define LED 33
+#define PHOTO_PIN GPIO_NUM_2
+#define HALL_PIN GPIO_NUM_4
+
+#define LED_PIN 33
 
 #include "LoRa/LoRa.h"
 
@@ -38,14 +41,14 @@ void sendLoRaMessage(char *buffer, size_t len)
 }
 
 // Accel Pin definitions
-int intPin = 12;                 // This can be changed, 2 and 3 are the Arduinos ext int pins
+// int intPin = 12;                 // This can be changed, 2 and 3 are the Arduinos ext int pins
 int16_t accelCount[3];           // Stores the 16-bit signed accelerometer sensor output
 float ax, ay, az;                // Stores the real accel value in g's
 int16_t gyroCount[3];            // Stores the 16-bit signed gyro sensor output
 float gyrox, gyroy, gyroz;       // Stores the real gyro value in degrees per seconds
 float gyroBias[3], accelBias[3]; // Bias corrections for gyro and accelerometer
 int16_t tempCount;               // Stores the internal chip temperature sensor output
-float temperature;               // Scaled temperature in degrees Celsius
+float temperature;               // Scaled_PIN temperature in degrees Celsius
 float SelfTest[6];               // Gyro and accelerometer self-test sensor output
 uint32_t count = 0;
 float aRes, gRes; // scale resolutions per LSB for the sensors
@@ -61,8 +64,8 @@ void setup()
   // Accel Setup
 
   // Set up the interrupt pin, its set as active high, push-pull
-  pinMode(intPin, INPUT);
-  digitalWrite(intPin, LOW);
+  // pinMode(intPin, INPUT);
+  // digitalWrite(intPin, LOW);
 
   // Read the WHO_AM_I register, this is a good test of communication
   uint8_t c = mpu.readByte(MPU6050_ADDRESS, WHO_AM_I_MPU6050); // Read WHO_AM_I register for MPU-6050
@@ -79,16 +82,16 @@ void setup()
     }
     else
     {
-      pinMode(LED, OUTPUT);
-      digitalWrite(LED, true);
+      pinMode(LED_PIN, OUTPUT);
+      digitalWrite(LED_PIN, true);
       while (1)
         ; // Loop forever if communication doesn't happen
     }
   }
   else
   {
-    pinMode(LED, OUTPUT);
-    digitalWrite(LED, true);
+    pinMode(LED_PIN, OUTPUT);
+    digitalWrite(LED_PIN, true);
     while (1)
       ; // Loop forever if communication doesn't happen
   }
@@ -96,14 +99,14 @@ void setup()
   // LoRa setup
   if (!LoRa.begin(FREQ))
   {
-    pinMode(LED, OUTPUT);
-    digitalWrite(LED, true);
+    pinMode(LED_PIN, OUTPUT);
+    digitalWrite(LED_PIN, true);
     while (1)
     {
       delay(1000);
       if (LoRa.begin(FREQ))
       {
-        digitalWrite(LED, false);
+        digitalWrite(LED_PIN, false);
         break;
       }
     }
@@ -119,17 +122,19 @@ void setup()
   // --- Setup iniziale -------------------------------------------------
 
   // Sleep Setup
+  pinMode(HALL_PIN, INPUT);
+  pinMode(PHOTO_PIN, INPUT);
 
-  uint64_t bitmask = BUTTON_PIN_BITMASK(GPIO_NUM_2);
+  uint64_t bitmask = BUTTON_PIN_BITMASK(PHOTO_PIN);
 
   esp_sleep_enable_ext1_wakeup(bitmask, ESP_EXT1_WAKEUP_ALL_LOW);
 
-  esp_sleep_enable_ext0_wakeup(GPIO_NUM_4, LOW);
+  esp_sleep_enable_ext0_wakeup(HALL_PIN, HIGH);
 
   uint32_t start = millis();
   while (millis() - start < 1000)
   {
-    if (digitalRead(GPIO_NUM_4) && digitalRead(GPIO_NUM_2))
+    if (!digitalRead(HALL_PIN) && digitalRead(PHOTO_PIN))
     {
       mpu.LowPowerAccelOnlyMPU6050();
       esp_deep_sleep_start();
