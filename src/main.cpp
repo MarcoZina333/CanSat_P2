@@ -185,6 +185,7 @@ void loop()
     // Transmit
     sendLoRaMessage(tx_buffer, strnlen(tx_buffer, TX_BUFFER_LEN));
 
+    /* // Debug print
     Serial.printf(LORA_ACC_MSG,
                   1000 * ax, // meas in mg
                   1000 * ay, // meas in mg
@@ -192,7 +193,7 @@ void loop()
                   gyrox,
                   gyroy,
                   gyroz,
-                  temperature);
+                  temperature);*/
 
     count = millis();
   }
