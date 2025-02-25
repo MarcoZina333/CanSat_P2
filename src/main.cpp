@@ -5,6 +5,7 @@
 
 #define PHOTO_PIN GPIO_NUM_2
 #define HALL_PIN GPIO_NUM_4
+#define WAKE_UP_TIMEOUT 2000
 
 #define LED_PIN 33
 
@@ -132,7 +133,7 @@ void setup()
   esp_sleep_enable_ext0_wakeup(HALL_PIN, HIGH);
 
   uint32_t start = millis();
-  while (millis() - start < 1000)
+  while (millis() - start < WAKE_UP_TIMEOUT)
   {
     if (!digitalRead(HALL_PIN) && digitalRead(PHOTO_PIN))
     {
