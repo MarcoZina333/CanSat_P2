@@ -304,7 +304,7 @@ void loop()
       RangeInfrastructureResult res = DW1000NgRTLS::tagTwrLocalize(LOCALIZE_DELAY);
       DW1000Ng::deepSleep();
     }
-
+    token = !token;
     count = millis();
   }
 }
