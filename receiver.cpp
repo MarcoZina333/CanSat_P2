@@ -118,6 +118,7 @@ void setup()
   // LoRa.receive();
 
   // LoRa.sleep();*/
+  /*
   Serial.println(F("### DW1000Ng-arduino-ranging-anchorMain ###"));
 // initialize the driver
 #if defined(ESP8266)
@@ -156,7 +157,7 @@ void setup()
   DW1000Ng::getPrintableDeviceMode(msg);
   Serial.print("Device mode: ");
   Serial.println(msg);
-  beacons.clear();
+  beacons.clear();*/
 }
 
 void loop()
@@ -178,7 +179,7 @@ void loop()
     Serial.print("' with RSSI ");
     Serial.println(LoRa.packetRssi());
   }
-
+  /*
   if (DW1000NgRTLS::receiveFrame())
   {
     size_t recv_len = DW1000Ng::getReceivedDataLength();
@@ -249,4 +250,5 @@ void loop()
       }
     }
   }
+  */
 }

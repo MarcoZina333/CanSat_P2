@@ -138,20 +138,20 @@ void MPU6050lib::initMPU6050()
   writeByte(MPU6050_ADDRESS, CONFIG, 0x03);
 
   // Set sample rate = gyroscope output rate/(1 + SMPLRT_DIV)
-  writeByte(MPU6050_ADDRESS, SMPLRT_DIV, 0x04); // Use a 200 Hz rate; the same rate set in CONFIG above
+  writeByte(MPU6050_ADDRESS, SMPLRT_DIV, 0x00); // Use a 200 Hz rate; the same rate set in CONFIG above
 
   // Set gyroscope full scale range
   // Range selects FS_SEL and AFS_SEL are 0 - 3, so 2-bit values are left-shifted into positions 4:3
   uint8_t c = readByte(MPU6050_ADDRESS, GYRO_CONFIG);
-  writeByte(MPU6050_ADDRESS, GYRO_CONFIG, c & ~0xE0);       // Clear self-test bits [7:5]
-  writeByte(MPU6050_ADDRESS, GYRO_CONFIG, c & ~0x18);       // Clear AFS bits [4:3]
-  writeByte(MPU6050_ADDRESS, GYRO_CONFIG, c | Gscale << 3); // Set full scale range for the gyro
+  writeByte(MPU6050_ADDRESS, GYRO_CONFIG, c & ~0xE0);           // Clear self-test bits [7:5]
+  writeByte(MPU6050_ADDRESS, GYRO_CONFIG, c & ~0x18);           // Clear AFS bits [4:3]
+  writeByte(MPU6050_ADDRESS, GYRO_CONFIG, c | GFS_500DPS << 3); // Set full scale range for the gyro to 500 dps
 
   // Set accelerometer configuration
   c = readByte(MPU6050_ADDRESS, ACCEL_CONFIG);
   writeByte(MPU6050_ADDRESS, ACCEL_CONFIG, c & ~0xE0);       // Clear self-test bits [7:5]
   writeByte(MPU6050_ADDRESS, ACCEL_CONFIG, c & ~0x18);       // Clear AFS bits [4:3]
-  writeByte(MPU6050_ADDRESS, ACCEL_CONFIG, c | Ascale << 3); // Set full scale range for the accelerometer
+  writeByte(MPU6050_ADDRESS, ACCEL_CONFIG, c | AFS_4G << 3); // Set full scale range for the accelerometer to 4 g
 
   // Configure Interrupts and Bypass Enable
   // Set interrupt pin active high, push-pull, and clear on read of INT_STATUS, enable I2C_BYPASS_EN so additional chips

@@ -1,0 +1,796 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Received packet 'Acceleration -> X: -1138.79 mg Y: -4.58 mg Z: -2050.78 mg
+Gyro rate -> X: -1.2 deg/s Y: 0.7 deg/s Z: -0.8 deg/s
+Temperature: 11.44 deg C' with RSSI -66
+Received packet 'Acceleration -> X: -1141.11 mg Y: -139.95 mg Z: -1930.66 mg
+Gyro rate -> X: 1.8 deg/s Y: -6.2 deg/s Z: 1.1 deg/s
+Temperature: 11.44 deg C' with RSSI -70
+Received packet 'Acceleration -> X: -1004.76 mg Y: -99.06 mg Z: -2606.57 mg
+Gyro rate -> X: -23.9 deg/s Y: -103.5 deg/s Z: -32.7 deg/s
+Temperature: 11.45 deg C' with RSSI -63
+Received packet 'Acceleration -> X: -1591.67 mg Y: -12.63 mg Z: -2930.05 mg
+Gyro rate -> X: -47.0 deg/s Y: -3.3 deg/s Z: 43.7 deg/s
+Temperature: 11.48 deg C' with RSSI -67
+Received packet 'Acceleration -> X: -1727.54 mg Y: 39.98 mg Z: -2989.75 mg
+Gyro rate -> X: -48.7 deg/s Y: -60.2 deg/s Z: 22.4 deg/s
+Temperature: 11.51 deg C' with RSSI -53
+Received packet 'Acceleration -> X: -2220.58 mg Y: 360.05 mg Z: -2861.69 mg
+Gyro rate -> X: 18.3 deg/s Y: -81.6 deg/s Z: 55.0 deg/s
+Temperature: 11.50 deg C' with RSSI -54
+Received packet 'Acceleration -> X: -2457.89 mg Y: 240.17 mg Z: -2989.75 mg
+Gyro rate -> X: -9.2 deg/s Y: -20.9 deg/s Z: 30.6 deg/s
+Temperature: 11.50 deg C' with RSSI -55
+Received packet 'Acceleration -> X: -2797.24 mg Y: 112.37 mg Z: -2790.89 mg
+Gyro rate -> X: -24.9 deg/s Y: -24.7 deg/s Z: -5.2 deg/s
+Temperature: 11.55 deg C' with RSSI -53
+Received packet 'Acceleration -> X: -2532.59 mg Y: 192.69 mg Z: -2914.67 mg
+Gyro rate -> X: -29.1 deg/s Y: 20.2 deg/s Z: -37.5 deg/s
+Temperature: 11.54 deg C' with RSSI -56
+Received packet 'Acceleration -> X: -2818.73 mg Y: 309.39 mg Z: -2989.75 mg
+Gyro rate -> X: 12.9 deg/s Y: 12.2 deg/s Z: -22.4 deg/s
+Temperature: 11.57 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -1332.28 mg Y: 1009.70 mg Z: -2088.01 mg
+Gyro rate -> X: -151.0 deg/s Y: 182.9 deg/s Z: 124.3 deg/s
+Temperature: 11.55 deg C' with RSSI -53
+Received packet 'Acceleration -> X: -2349.00 mg Y: 622.50 mg Z: -2003.05 mg
+Gyro rate -> X: -28.2 deg/s Y: 107.3 deg/s Z: -63.9 deg/s
+Temperature: 11.58 deg C' with RSSI -56
+Received packet 'Acceleration -> X: -3042.11 mg Y: 268.49 mg Z: -2141.24 mg
+Gyro rate -> X: 11.8 deg/s Y: -4.6 deg/s Z: -1.2 deg/s
+Temperature: 11.59 deg C' with RSSI -62
+Received packet 'Acceleration -> X: -2809.69 mg Y: 598.82 mg Z: -2182.98 mg
+Gyro rate -> X: 66.0 deg/s Y: -27.5 deg/s Z: 54.2 deg/s
+Temperature: 11.61 deg C' with RSSI -56
+Received packet 'Acceleration -> X: -2847.78 mg Y: 705.75 mg Z: -2114.14 mg
+Gyro rate -> X: -5.9 deg/s Y: 25.4 deg/s Z: -19.0 deg/s
+Temperature: 11.61 deg C' with RSSI -59
+Received packet 'Acceleration -> X: -2747.07 mg Y: 629.94 mg Z: -1966.92 mg
+Gyro rate -> X: 3.6 deg/s Y: -6.2 deg/s Z: 31.6 deg/s
+Temperature: 11.62 deg C' with RSSI -56
+Received packet 'Acceleration -> X: -2733.52 mg Y: 647.03 mg Z: -2185.18 mg
+Gyro rate -> X: -15.8 deg/s Y: 6.1 deg/s Z: -0.1 deg/s
+Temperature: 11.62 deg C' with RSSI -57
+Received packet 'Acceleration -> X: -2992.80 mg Y: 498.23 mg Z: -1958.37 mg
+Gyro rate -> X: -3.9 deg/s Y: 17.8 deg/s Z: -22.1 deg/s
+Temperature: 11.63 deg C' with RSSI -58
+Received packet 'Acceleration -> X: -3042.11 mg Y: 362.85 mg Z: -1974.49 mg
+Gyro rate -> X: -1.0 deg/s Y: 13.9 deg/s Z: -42.5 deg/s
+Temperature: 11.64 deg C' with RSSI -62
+Received packet 'Acceleration -> X: -3042.11 mg Y: -245.18 mg Z: -1883.18 mg
+Gyro rate -> X: -13.9 deg/s Y: 17.3 deg/s Z: -26.8 deg/s
+Temperature: 11.64 deg C' with RSSI -65
+Received packet 'Acceleration -> X: -1159.18 mg Y: -405.58 mg Z: -2167.60 mg
+Gyro rate -> X: -251.1 deg/s Y: 200.6 deg/s Z: -53.6 deg/s
+Temperature: 11.64 deg C' with RSSI -56
+Received packet 'Acceleration -> X: -1309.20 mg Y: -205.26 mg Z: -2059.81 mg
+Gyro rate -> X: -195.8 deg/s Y: 181.5 deg/s Z: -250.7 deg/s
+Temperature: 11.64 deg C' with RSSI -58
+Received packet 'Acceleration -> X: -1568.97 mg Y: 201.11 mg Z: -2093.99 mg
+Gyro rate -> X: 86.6 deg/s Y: -221.0 deg/s Z: 83.1 deg/s
+Temperature: 11.65 deg C' with RSSI -72
+Received packet 'Acceleration -> X: -1952.88 mg Y: -61.58 mg Z: -1258.79 mg
+Gyro rate -> X: -251.1 deg/s Y: 34.7 deg/s Z: 2.5 deg/s
+Temperature: 11.65 deg C' with RSSI -59
+Received packet 'Acceleration -> X: -2173.95 mg Y: 690.49 mg Z: -2757.08 mg
+Gyro rate -> X: -91.1 deg/s Y: 3.7 deg/s Z: 1.2 deg/s
+Temperature: 11.68 deg C' with RSSI -58
+Received packet 'Acceleration -> X: -2178.34 mg Y: -281.43 mg Z: -2989.75 mg
+Gyro rate -> X: -101.7 deg/s Y: -4.6 deg/s Z: 2.0 deg/s
+Temperature: 11.67 deg C' with RSSI -59
+Received packet 'Acceleration -> X: -1934.57 mg Y: -722.35 mg Z: -1939.21 mg
+Gyro rate -> X: 248.8 deg/s Y: 30.6 deg/s Z: 50.6 deg/s
+Temperature: 11.68 deg C' with RSSI -59
+Received packet 'Acceleration -> X: -2702.88 mg Y: -1077.70 mg Z: -1842.90 mg
+Gyro rate -> X: -45.6 deg/s Y: 189.8 deg/s Z: 155.9 deg/s
+Temperature: 11.68 deg C' with RSSI -77
+Received packet 'Acceleration -> X: -3042.11 mg Y: -139.10 mg Z: -1989.01 mg
+Gyro rate -> X: -77.9 deg/s Y: 68.5 deg/s Z: 79.3 deg/s
+Temperature: 11.68 deg C' with RSSI -57
+Received packet 'Acceleration -> X: -2321.29 mg Y: -51.21 mg Z: -2692.63 mg
+Gyro rate -> X: 112.1 deg/s Y: -23.9 deg/s Z: 124.6 deg/s
+Temperature: 11.65 deg C' with RSSI -68
+Received packet 'Acceleration -> X: -2098.27 mg Y: -41.56 mg Z: -2989.75 mg
+Gyro rate -> X: -18.6 deg/s Y: 107.0 deg/s Z: -99.7 deg/s
+Temperature: 11.68 deg C' with RSSI -75
+Received packet 'Acceleration -> X: -2404.79 mg Y: 491.76 mg Z: -2986.69 mg
+Gyro rate -> X: -251.1 deg/s Y: -54.0 deg/s Z: -65.2 deg/s
+Temperature: 11.71 deg C' with RSSI -58
+Received packet 'Acceleration -> X: -2551.76 mg Y: 560.85 mg Z: -2022.71 mg
+Gyro rate -> X: -111.4 deg/s Y: 32.1 deg/s Z: -22.7 deg/s
+Temperature: 11.70 deg C' with RSSI -57
+Received packet 'Acceleration -> X: -2711.67 mg Y: 560.00 mg Z: -1491.46 mg
+Gyro rate -> X: -123.0 deg/s Y: 9.9 deg/s Z: 26.8 deg/s
+Temperature: 11.68 deg C' with RSSI -63
+Received packet 'Acceleration -> X: -2948.85 mg Y: 693.54 mg Z: -1466.43 mg
+Gyro rate -> X: -74.0 deg/s Y: -29.0 deg/s Z: 0.6 deg/s
+Temperature: 11.70 deg C' with RSSI -55
+Received packet 'Acceleration -> X: -2756.71 mg Y: -188.90 mg Z: -1402.22 mg
+Gyro rate -> X: -84.0 deg/s Y: -2.3 deg/s Z: 16.8 deg/s
+Temperature: 11.70 deg C' with RSSI -59
+Received packet 'Acceleration -> X: -3042.11 mg Y: -56.58 mg Z: -1881.96 mg
+Gyro rate -> X: -125.4 deg/s Y: -58.1 deg/s Z: 40.1 deg/s
+Temperature: 11.71 deg C' with RSSI -63
+Received packet 'Acceleration -> X: -2762.33 mg Y: -311.34 mg Z: -1364.01 mg
+Gyro rate -> X: 3.7 deg/s Y: 48.6 deg/s Z: -5.8 deg/s
+Temperature: 11.71 deg C' with RSSI -58
+Received packet 'Acceleration -> X: -2844.73 mg Y: -326.72 mg Z: -1265.50 mg
+Gyro rate -> X: -3.2 deg/s Y: 1.4 deg/s Z: -11.4 deg/s
+Temperature: 11.71 deg C' with RSSI -62
+Received packet 'Acceleration -> X: -3042.11 mg Y: -374.33 mg Z: -1501.10 mg
+Gyro rate -> X: 13.1 deg/s Y: 47.1 deg/s Z: -53.5 deg/s
+Temperature: 11.71 deg C' with RSSI -68
+Received packet 'Acceleration -> X: -2898.68 mg Y: -382.51 mg Z: -1803.10 mg
+Gyro rate -> X: -16.9 deg/s Y: 63.9 deg/s Z: 7.5 deg/s
+Temperature: 11.75 deg C' with RSSI -68
+Received packet 'Acceleration -> X: -3042.11 mg Y: -799.74 mg Z: -2989.75 mg
+Gyro rate -> X: -251.1 deg/s Y: -249.7 deg/s Z: -20.4 deg/s
+Temperature: 11.75 deg C' with RSSI -50
+Received packet 'Acceleration -> X: -1430.66 mg Y: 346.74 mg Z: -1762.21 mg
+Gyro rate -> X: -251.1 deg/s Y: 180.9 deg/s Z: 190.4 deg/s
+Temperature: 11.72 deg C' with RSSI -65
+Received packet 'Acceleration -> X: -783.69 mg Y: 11.41 mg Z: -2001.34 mg
+Gyro rate -> X: -251.1 deg/s Y: -249.7 deg/s Z: -126.9 deg/s
+Temperature: 11.73 deg C' with RSSI -54
+Received packet 'Acceleration -> X: -942.63 mg Y: -164.61 mg Z: -2084.35 mg
+Gyro rate -> X: 60.0 deg/s Y: -24.2 deg/s Z: -35.5 deg/s
+Temperature: 11.71 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -2056.52 mg Y: -213.56 mg Z: -1983.76 mg
+Gyro rate -> X: 120.7 deg/s Y: -22.0 deg/s Z: -250.7 deg/s
+Temperature: 11.71 deg C' with RSSI -56
+Received packet 'Acceleration -> X: -2221.19 mg Y: -1261.41 mg Z: -2314.09 mg
+Gyro rate -> X: -251.1 deg/s Y: -0.2 deg/s Z: 1.9 deg/s
+Temperature: 11.73 deg C' with RSSI -65
+Received packet 'Acceleration -> X: -2121.95 mg Y: -999.21 mg Z: -2384.16 mg
+Gyro rate -> X: 117.3 deg/s Y: 4.2 deg/s Z: -3.4 deg/s
+Temperature: 11.70 deg C' with RSSI -63
+Received packet 'Acceleration -> X: -2124.63 mg Y: -946.96 mg Z: -2479.49 mg
+Gyro rate -> X: 41.7 deg/s Y: 1.6 deg/s Z: 1.2 deg/s
+Temperature: 11.75 deg C' with RSSI -66
+Received packet 'Acceleration -> X: -2125.85 mg Y: -995.67 mg Z: -2410.03 mg
+Gyro rate -> X: 13.5 deg/s Y: 1.3 deg/s Z: -1.1 deg/s
+Temperature: 11.74 deg C' with RSSI -76
+Received packet 'Acceleration -> X: -2122.92 mg Y: -1014.95 mg Z: -2364.50 mg
+Gyro rate -> X: 3.9 deg/s Y: 1.0 deg/s Z: -0.8 deg/s
+Temperature: 11.77 deg C' with RSSI -67
+Received packet 'Acceleration -> X: -2123.29 mg Y: -1007.26 mg Z: -2368.65 mg
+Gyro rate -> X: -1.2 deg/s Y: 0.9 deg/s Z: -0.8 deg/s
+Temperature: 11.77 deg C' with RSSI -60
+Received packet 'Acceleration -> X: -2122.92 mg Y: -1006.04 mg Z: -2370.24 mg
+Gyro rate -> X: -1.2 deg/s Y: 0.9 deg/s Z: -0.8 deg/s
+Temperature: 11.75 deg C' with RSSI -59
+Received packet 'Acceleration -> X: -2123.54 mg Y: -1008.36 mg Z: -2366.70 mg
+Gyro rate -> X: -1.2 deg/s Y: 0.9 deg/s Z: -0.7 deg/s
+Temperature: 11.78 deg C' with RSSI -59
+Received packet 'Acceleration -> X: -2123.54 mg Y: -1009.46 mg Z: -2372.31 mg
+Gyro rate -> X: -1.2 deg/s Y: 0.9 deg/s Z: -0.7 deg/s
+Temperature: 11.77 deg C' with RSSI -59
+Received packet 'Acceleration -> X: -2123.41 mg Y: -1008.48 mg Z: -2368.65 mg
+Gyro rate -> X: -1.2 deg/s Y: 0.9 deg/s Z: -0.7 deg/s
+Temperature: 11.77 deg C' with RSSI -59
+Received packet 'Acceleration -> X: -2125.12 mg Y: -1007.75 mg Z: -2370.48 mg
+Gyro rate -> X: -1.2 deg/s Y: 0.9 deg/s Z: -0.7 deg/s
+Temperature: 11.79 deg C' with RSSI -59
+Received packet 'Acceleration -> X: -2126.46 mg Y: -1009.83 mg Z: -2371.09 mg
+Gyro rate -> X: -1.2 deg/s Y: 0.9 deg/s Z: -0.7 deg/s
+Temperature: 11.78 deg C' with RSSI -61
+Received packet 'Acceleration -> X: -2125.24 mg Y: -1009.58 mg Z: -2364.50 mg
+Gyro rate -> X: -1.1 deg/s Y: 0.9 deg/s Z: -0.7 deg/s
+Temperature: 11.78 deg C' with RSSI -60
+Received packet 'Acceleration -> X: -2123.41 mg Y: -1009.46 mg Z: -2367.19 mg
+Gyro rate -> X: -1.0 deg/s Y: 0.9 deg/s Z: -0.8 deg/s
+Temperature: 11.76 deg C' with RSSI -64
+Received packet 'Acceleration -> X: -2125.24 mg Y: -1006.16 mg Z: -2367.19 mg
+Gyro rate -> X: -1.1 deg/s Y: 0.9 deg/s Z: -0.7 deg/s
+Temperature: 11.79 deg C' with RSSI -60
+Received packet 'Acceleration -> X: -2127.20 mg Y: -1008.61 mg Z: -2363.04 mg
+Gyro rate -> X: -1.1 deg/s Y: 0.9 deg/s Z: -0.8 deg/s
+Temperature: 11.79 deg C' with RSSI -59
+Received packet 'Acceleration -> X: -2122.80 mg Y: -1009.83 mg Z: -2367.92 mg
+Gyro rate -> X: -1.2 deg/s Y: 0.9 deg/s Z: -0.8 deg/s
+Temperature: 11.82 deg C' with RSSI -57
+Received packet 'Acceleration -> X: -2122.31 mg Y: -1006.04 mg Z: -2368.90 mg
+Gyro rate -> X: -1.1 deg/s Y: 0.9 deg/s Z: -0.8 deg/s
+Temperature: 11.80 deg C' with RSSI -55
+Received packet 'Acceleration -> X: -2071.53 mg Y: -1091.13 mg Z: -1812.87 mg
+Gyro rate -> X: 164.6 deg/s Y: 60.2 deg/s Z: -10.0 deg/s
+Temperature: 11.80 deg C' with RSSI -60
+Received packet 'Acceleration -> X: -2255.13 mg Y: -713.93 mg Z: -1229.86 mg
+Gyro rate -> X: -44.9 deg/s Y: -78.1 deg/s Z: -52.0 deg/s
+Temperature: 11.78 deg C' with RSSI -66
+Received packet 'Acceleration -> X: -1687.62 mg Y: -678.77 mg Z: -1386.72 mg
+Gyro rate -> X: -18.9 deg/s Y: -77.1 deg/s Z: 108.9 deg/s
+Temperature: 11.79 deg C' with RSSI -61
+Received packet 'Acceleration -> X: -1138.92 mg Y: -595.76 mg Z: -1891.11 mg
+Gyro rate -> X: 41.3 deg/s Y: -185.1 deg/s Z: -200.8 deg/s
+Temperature: 11.84 deg C' with RSSI -55
+Received packet 'Acceleration -> X: -1400.88 mg Y: -626.53 mg Z: -2354.37 mg
+Gyro rate -> X: -33.9 deg/s Y: 16.1 deg/s Z: 30.6 deg/s
+Temperature: 11.80 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1596.92 mg Y: -681.82 mg Z: -1651.25 mg
+Gyro rate -> X: 248.8 deg/s Y: -249.7 deg/s Z: 30.3 deg/s
+Temperature: 11.82 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -2369.38 mg Y: -149.84 mg Z: -610.84 mg
+Gyro rate -> X: -121.6 deg/s Y: 92.1 deg/s Z: -174.0 deg/s
+Temperature: 11.81 deg C' with RSSI -48
+Received packet 'Acceleration -> X: -1486.21 mg Y: -78.43 mg Z: -1942.75 mg
+Gyro rate -> X: -177.6 deg/s Y: -16.3 deg/s Z: -92.4 deg/s
+Temperature: 11.81 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -783.20 mg Y: 53.77 mg Z: -2049.68 mg
+Gyro rate -> X: 102.1 deg/s Y: -49.8 deg/s Z: 76.4 deg/s
+Temperature: 11.83 deg C' with RSSI -48
+Received packet 'Acceleration -> X: -1022.46 mg Y: -331.73 mg Z: -2332.28 mg
+Gyro rate -> X: 45.2 deg/s Y: 3.2 deg/s Z: -52.5 deg/s
+Temperature: 11.82 deg C' with RSSI -57
+Received packet 'Acceleration -> X: -1047.73 mg Y: -232.97 mg Z: -1819.82 mg
+Gyro rate -> X: -119.9 deg/s Y: 27.7 deg/s Z: 111.8 deg/s
+Temperature: 11.84 deg C' with RSSI -67
+Received packet 'Acceleration -> X: -1636.96 mg Y: -1130.43 mg Z: -2049.56 mg
+Gyro rate -> X: -13.6 deg/s Y: 58.9 deg/s Z: 76.1 deg/s
+Temperature: 11.82 deg C' with RSSI -58
+Received packet 'Acceleration -> X: -2216.43 mg Y: -1106.87 mg Z: -2520.39 mg
+Gyro rate -> X: -10.2 deg/s Y: 45.2 deg/s Z: 65.2 deg/s
+Temperature: 11.82 deg C' with RSSI -56
+Received packet 'Acceleration -> X: -2634.03 mg Y: -471.62 mg Z: -2499.39 mg
+Gyro rate -> X: -16.8 deg/s Y: -4.6 deg/s Z: 149.7 deg/s
+Temperature: 11.82 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -3042.11 mg Y: -105.53 mg Z: -2041.50 mg
+Gyro rate -> X: 8.5 deg/s Y: -28.6 deg/s Z: 33.6 deg/s
+Temperature: 11.82 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -3042.11 mg Y: 395.32 mg Z: -2178.71 mg
+Gyro rate -> X: -186.1 deg/s Y: 62.0 deg/s Z: 6.5 deg/s
+Temperature: 11.83 deg C' with RSSI -54
+Received packet 'Acceleration -> X: -3015.38 mg Y: 113.71 mg Z: -2190.67 mg
+Gyro rate -> X: -26.4 deg/s Y: -8.4 deg/s Z: 15.6 deg/s
+Temperature: 11.85 deg C' with RSSI -43
+Received packet 'Acceleration -> X: -3042.11 mg Y: 1.40 mg Z: -2383.54 mg
+Gyro rate -> X: 33.1 deg/s Y: -2.3 deg/s Z: 5.4 deg/s
+Temperature: 11.84 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -3042.11 mg Y: -78.67 mg Z: -2348.51 mg
+Gyro rate -> X: 4.0 deg/s Y: -24.5 deg/s Z: 16.0 deg/s
+Temperature: 11.85 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -3042.11 mg Y: -143.49 mg Z: -2240.72 mg
+Gyro rate -> X: 1.0 deg/s Y: 3.2 deg/s Z: -0.7 deg/s
+Temperature: 11.84 deg C' with RSSI -46
+Received packet 'Acceleration -> X: -3042.11 mg Y: -65.61 mg Z: -2350.10 mg
+Gyro rate -> X: 1.4 deg/s Y: 8.6 deg/s Z: 21.0 deg/s
+Temperature: 11.88 deg C' with RSSI -43
+Received packet 'Acceleration -> X: -3042.11 mg Y: -12.51 mg Z: -2291.50 mg
+Gyro rate -> X: 8.7 deg/s Y: -10.6 deg/s Z: -3.7 deg/s
+Temperature: 11.86 deg C' with RSSI -45
+Received packet 'Acceleration -> X: -3042.11 mg Y: -64.88 mg Z: -2291.99 mg
+Gyro rate -> X: -26.2 deg/s Y: -7.3 deg/s Z: 9.6 deg/s
+Temperature: 11.86 deg C' with RSSI -46
+Received packet 'Acceleration -> X: -3042.11 mg Y: -80.75 mg Z: -2171.88 mg
+Gyro rate -> X: 3.0 deg/s Y: -16.8 deg/s Z: -1.9 deg/s
+Temperature: 11.87 deg C' with RSSI -46
+Received packet 'Acceleration -> X: -3042.11 mg Y: -10.31 mg Z: -2087.65 mg
+Gyro rate -> X: 48.0 deg/s Y: 5.0 deg/s Z: 3.7 deg/s
+Temperature: 11.84 deg C' with RSSI -44
+Received packet 'Acceleration -> X: -3042.11 mg Y: -125.31 mg Z: -2283.57 mg
+Gyro rate -> X: -12.9 deg/s Y: -15.0 deg/s Z: -3.4 deg/s
+Temperature: 11.87 deg C' with RSSI -44
+Received packet 'Acceleration -> X: -3042.11 mg Y: 38.27 mg Z: -2160.16 mg
+Gyro rate -> X: -7.9 deg/s Y: -2.6 deg/s Z: -21.2 deg/s
+Temperature: 11.87 deg C' with RSSI -45
+Received packet 'Acceleration -> X: -3042.11 mg Y: 70.86 mg Z: -2202.64 mg
+Gyro rate -> X: -116.6 deg/s Y: -11.9 deg/s Z: -21.7 deg/s
+Temperature: 11.86 deg C' with RSSI -48
+Received packet 'Acceleration -> X: -3042.11 mg Y: 109.07 mg Z: -2157.47 mg
+Gyro rate -> X: -41.4 deg/s Y: -14.8 deg/s Z: 11.5 deg/s
+Temperature: 11.87 deg C' with RSSI -47
+Received packet 'Acceleration -> X: -3042.11 mg Y: 48.28 mg Z: -2215.33 mg
+Gyro rate -> X: -99.6 deg/s Y: -36.4 deg/s Z: -14.3 deg/s
+Temperature: 11.88 deg C' with RSSI -44
+Received packet 'Acceleration -> X: -3042.11 mg Y: -147.28 mg Z: -1867.43 mg
+Gyro rate -> X: -35.7 deg/s Y: 13.4 deg/s Z: -22.4 deg/s
+Temperature: 11.87 deg C' with RSSI -45
+Received packet 'Acceleration -> X: -3042.11 mg Y: -59.51 mg Z: -1804.57 mg
+Gyro rate -> X: -103.8 deg/s Y: -0.6 deg/s Z: 12.1 deg/s
+Temperature: 11.88 deg C' with RSSI -46
+Received packet 'Acceleration -> X: -3042.11 mg Y: -120.79 mg Z: -1956.54 mg
+Gyro rate -> X: 20.3 deg/s Y: 10.2 deg/s Z: 19.6 deg/s
+Temperature: 11.87 deg C' with RSSI -45
+Received packet 'Acceleration -> X: -3042.11 mg Y: -279.48 mg Z: -1997.68 mg
+Gyro rate -> X: 2.7 deg/s Y: 35.4 deg/s Z: -55.0 deg/s
+Temperature: 11.89 deg C' with RSSI -46
+Received packet 'Acceleration -> X: -3042.11 mg Y: -202.82 mg Z: -1940.80 mg
+Gyro rate -> X: 4.0 deg/s Y: 20.3 deg/s Z: 26.5 deg/s
+Temperature: 11.91 deg C' with RSSI -46
+Received packet 'Acceleration -> X: -3042.11 mg Y: -283.39 mg Z: -2001.46 mg
+Gyro rate -> X: -29.2 deg/s Y: 2.0 deg/s Z: -16.4 deg/s
+Temperature: 11.88 deg C' with RSSI -48
+Received packet 'Acceleration -> X: -3042.11 mg Y: -98.45 mg Z: -2061.89 mg
+Gyro rate -> X: -13.7 deg/s Y: 5.7 deg/s Z: -0.9 deg/s
+Temperature: 11.91 deg C' with RSSI -53
+Received packet 'Acceleration -> X: -3042.11 mg Y: -216.13 mg Z: -1940.31 mg
+Gyro rate -> X: -48.4 deg/s Y: 1.3 deg/s Z: -13.9 deg/s
+Temperature: 11.89 deg C' with RSSI -55
+Received packet 'Acceleration -> X: -2993.53 mg Y: -189.39 mg Z: -2040.89 mg
+Gyro rate -> X: -58.0 deg/s Y: -11.6 deg/s Z: -3.3 deg/s
+Temperature: 11.93 deg C' with RSSI -50
+Received packet 'Acceleration -> X: -3042.11 mg Y: 762.76 mg Z: -2215.82 mg
+Gyro rate -> X: 21.0 deg/s Y: -19.1 deg/s Z: -57.2 deg/s
+Temperature: 11.94 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -3042.11 mg Y: -133.00 mg Z: -1833.13 mg
+Gyro rate -> X: -106.3 deg/s Y: -75.3 deg/s Z: -131.2 deg/s
+Temperature: 11.93 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -3042.11 mg Y: -301.70 mg Z: -1851.93 mg
+Gyro rate -> X: 18.8 deg/s Y: 0.8 deg/s Z: 14.0 deg/s
+Temperature: 11.92 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -3042.11 mg Y: -287.54 mg Z: -2060.67 mg
+Gyro rate -> X: 13.3 deg/s Y: 16.6 deg/s Z: 0.0 deg/s
+Temperature: 11.93 deg C' with RSSI -52
+Received packet '@�celera�ion ->�X:C�30�3.11 mg I: -277.9� md ZZ =[05737mg
+Guro&rawE : X9j-�5 Tec�0YY,/3�20d/g.�(J9�-7+hs�eV�{�4i-@�vaw?�U�(12�i� $ud,C' with RSSI -51
+Received packet 'Acceleration -> X: -3042.11 mg Y: -512.39 mg Z: -2008.54 mg
+Gyro rate -> X: 6.7 deg/s Y: -10.3 deg/s Z: -16.4 deg/s
+Temperature: 11.94 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -3042.11 mg Y: -548.40 mg Z: -1934.57 mg
+Gyro rate -> X: 1.7 deg/s Y: 6.0 deg/s Z: -10.8 deg/s
+Temperature: 11.94 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -3042.11 mg Y: -363.34 mg Z: -1959.47 mg
+Gyro rate -> X: 3.5 deg/s Y: 8.4 deg/s Z: 14.0 deg/s
+Temperature: 11.94 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -3027.83 mg Y: -422.67 mg Z: -2231.20 mg
+Gyro rate -> X: 20.3 deg/s Y: 16.9 deg/s Z: -14.5 deg/s
+Temperature: 11.96 deg C' with RSSI -66
+Received packet 'Acceleration -> X: -3032.23 mg Y: -471.74 mg Z: -2243.41 mg
+Gyro rate -> X: -19.3 deg/s Y: 22.1 deg/s Z: -11.3 deg/s
+Temperature: 11.95 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -2923.46 mg Y: -537.90 mg Z: -2312.01 mg
+Gyro rate -> X: -3.1 deg/s Y: 5.9 deg/s Z: -0.6 deg/s
+Temperature: 11.96 deg C' with RSSI -54
+Received packet 'Acceleration -> X: -3042.11 mg Y: -441.96 mg Z: -2271.85 mg
+Gyro rate -> X: 6.1 deg/s Y: -8.4 deg/s Z: -29.7 deg/s
+Temperature: 11.93 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -2835.33 mg Y: -886.54 mg Z: -2150.63 mg
+Gyro rate -> X: 31.6 deg/s Y: -74.4 deg/s Z: -56.1 deg/s
+Temperature: 11.95 deg C' with RSSI -55
+Received packet 'Acceleration -> X: -2811.77 mg Y: -638.85 mg Z: -2136.11 mg
+Gyro rate -> X: 40.4 deg/s Y: 50.3 deg/s Z: -32.0 deg/s
+Temperature: 11.96 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -2259.40 mg Y: -543.52 mg Z: -1436.52 mg
+Gyro rate -> X: 137.6 deg/s Y: -55.5 deg/s Z: -20.9 deg/s
+Temperature: 11.94 deg C' with RSSI -48
+Received packet 'Acceleration -> X: -1335.69 mg Y: 146.67 mg Z: -1253.05 mg
+Gyro rate -> X: 107.4 deg/s Y: -205.0 deg/s Z: 57.1 deg/s
+Temperature: 11.93 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1067.75 mg Y: 188.29 mg Z: -1762.45 mg
+Gyro rate -> X: 21.5 deg/s Y: -18.9 deg/s Z: -4.2 deg/s
+Temperature: 11.99 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1157.84 mg Y: 131.29 mg Z: -2016.85 mg
+Gyro rate -> X: -7.3 deg/s Y: 8.3 deg/s Z: -6.4 deg/s
+Temperature: 11.97 deg C' with RSSI -53
+Received packet 'Acceleration -> X: -1189.45 mg Y: 118.84 mg Z: -1959.59 mg
+Gyro rate -> X: -3.7 deg/s Y: 7.9 deg/s Z: -4.5 deg/s
+Temperature: 11.97 deg C' with RSSI -53
+Received packet 'Acceleration -> X: -1103.27 mg Y: 28.75 mg Z: -1944.70 mg
+Gyro rate -> X: -26.1 deg/s Y: -3.1 deg/s Z: -23.2 deg/s
+Temperature: 11.98 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1235.96 mg Y: 109.07 mg Z: -1939.82 mg
+Gyro rate -> X: 1.4 deg/s Y: 6.7 deg/s Z: 1.6 deg/s
+Temperature: 11.99 deg C' with RSSI -50
+Received packet 'Acceleration -> X: -1182.86 mg Y: 39.98 mg Z: -1950.44 mg
+Gyro rate -> X: 16.0 deg/s Y: -3.8 deg/s Z: 4.5 deg/s
+Temperature: 11.96 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1149.78 mg Y: -56.58 mg Z: -1921.51 mg
+Gyro rate -> X: -45.6 deg/s Y: 1.8 deg/s Z: 0.5 deg/s
+Temperature: 11.98 deg C' with RSSI -47
+Received packet 'Acceleration -> X: -1202.39 mg Y: 4.09 mg Z: -1903.81 mg
+Gyro rate -> X: 3.9 deg/s Y: 1.0 deg/s Z: -7.8 deg/s
+Temperature: 11.99 deg C' with RSSI -50
+Received packet 'Acceleration -> X: -1075.07 mg Y: 49.99 mg Z: -1959.35 mg
+Gyro rate -> X: -15.9 deg/s Y: -17.9 deg/s Z: -28.6 deg/s
+Temperature: 11.95 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1080.20 mg Y: 48.16 mg Z: -2002.56 mg
+Gyro rate -> X: 5.3 deg/s Y: -7.9 deg/s Z: 38.9 deg/s
+Temperature: 11.97 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1143.55 mg Y: -54.75 mg Z: -2049.07 mg
+Gyro rate -> X: -13.7 deg/s Y: -3.1 deg/s Z: -9.4 deg/s
+Temperature: 12.01 deg C' with RSSI -53
+Received packet 'Acceleration -> X: -1105.59 mg Y: -176.70 mg Z: -2019.29 mg
+Gyro rate -> X: 248.8 deg/s Y: 21.1 deg/s Z: 27.5 deg/s
+Temperature: 11.99 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -1094.73 mg Y: -253.11 mg Z: -2025.27 mg
+Gyro rate -> X: 218.7 deg/s Y: -10.4 deg/s Z: 36.8 deg/s
+Temperature: 11.98 deg C' with RSSI -44
+Received packet 'Acceleration -> X: -1100.83 mg Y: -171.20 mg Z: -2046.14 mg
+Gyro rate -> X: 121.1 deg/s Y: -27.4 deg/s Z: 30.7 deg/s
+Temperature: 11.99 deg C' with RSSI -47
+Received packet 'Acceleration -> X: -1198.61 mg Y: -180.11 mg Z: -2107.54 mg
+Gyro rate -> X: 41.8 deg/s Y: 6.0 deg/s Z: -40.1 deg/s
+Temperature: 12.00 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1161.01 mg Y: -190.12 mg Z: -2099.00 mg
+Gyro rate -> X: -30.9 deg/s Y: -1.3 deg/s Z: 0.9 deg/s
+Temperature: 11.99 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1130.49 mg Y: -178.28 mg Z: -2027.10 mg
+Gyro rate -> X: -101.3 deg/s Y: -14.5 deg/s Z: 20.2 deg/s
+Temperature: 11.99 deg C' with RSSI -54
+Received packet 'Acceleration -> X: -1247.56 mg Y: -123.60 mg Z: -2368.65 mg
+Gyro rate -> X: 125.7 deg/s Y: 4.9 deg/s Z: -47.0 deg/s
+Temperature: 12.00 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1150.63 mg Y: -16.54 mg Z: -2323.49 mg
+Gyro rate -> X: 59.0 deg/s Y: -74.2 deg/s Z: -83.1 deg/s
+Temperature: 12.00 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1254.27 mg Y: -210.27 mg Z: -2454.71 mg
+Gyro rate -> X: -83.6 deg/s Y: 21.7 deg/s Z: 7.6 deg/s
+Temperature: 12.00 deg C' with RSSI -47
+Received packet 'Acceleration -> X: -1389.28 mg Y: 387.02 mg Z: -2590.33 mg
+Gyro rate -> X: -16.2 deg/s Y: -14.0 deg/s Z: -5.1 deg/s
+Temperature: 11.98 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1373.17 mg Y: 739.07 mg Z: -2165.28 mg
+Gyro rate -> X: -52.4 deg/s Y: -3.1 deg/s Z: 11.5 deg/s
+Temperature: 12.01 deg C' with RSSI -48
+Received packet 'Acceleration -> X: -1461.91 mg Y: 681.21 mg Z: -2221.56 mg
+Gyro rate -> X: -1.4 deg/s Y: -3.1 deg/s Z: -11.7 deg/s
+Temperature: 12.01 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1515.50 mg Y: 738.59 mg Z: -2191.04 mg
+Gyro rate -> X: -4.3 deg/s Y: 5.1 deg/s Z: -10.8 deg/s
+Temperature: 12.01 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1554.93 mg Y: 556.09 mg Z: -2724.49 mg
+Gyro rate -> X: 180.7 deg/s Y: 54.5 deg/s Z: -6.8 deg/s
+Temperature: 12.01 deg C' with RSSI -47
+Received packet 'Acceleration -> X: -1657.84 mg Y: 32.65 mg Z: -2980.71 mg
+Gyro rate -> X: 11.2 deg/s Y: -4.9 deg/s Z: 26.2 deg/s
+Temperature: 12.01 deg C' with RSSI -47
+Received packet 'Acceleration -> X: -1333.13 mg Y: -299.01 mg Z: -2183.96 mg
+Gyro rate -> X: -251.1 deg/s Y: -4.7 deg/s Z: -250.7 deg/s
+Temperature: 12.00 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -1315.55 mg Y: -21.30 mg Z: -2077.39 mg
+Gyro rate -> X: -251.1 deg/s Y: 129.6 deg/s Z: -146.0 deg/s
+Temperature: 12.00 deg C' with RSSI -46
+Received packet 'Acceleration -> X: -1242.80 mg Y: -99.55 mg Z: -1991.94 mg
+Gyro rate -> X: -251.1 deg/s Y: 159.9 deg/s Z: -50.1 deg/s
+Temperature: 12.02 deg C' with RSSI -48
+Received packet 'Acceleration -> X: -1167.24 mg Y: -121.64 mg Z: -2064.82 mg
+Gyro rate -> X: -76.6 deg/s Y: 24.4 deg/s Z: -64.1 deg/s
+Temperature: 12.02 deg C' with RSSI -45
+Received packet 'Acceleration -> X: -1165.53 mg Y: -160.46 mg Z: -2091.80 mg
+Gyro rate -> X: 60.8 deg/s Y: -23.1 deg/s Z: -5.5 deg/s
+Temperature: 12.01 deg C' with RSSI -47
+Received packet 'Acceleration -> X: -1116.94 mg Y: -220.28 mg Z: -2004.39 mg
+Gyro rate -> X: 149.5 deg/s Y: -1.5 deg/s Z: -8.0 deg/s
+Temperature: 12.02 deg C' with RSSI -45
+Received packet 'Acceleration -> X: -1146.48 mg Y: -194.27 mg Z: -2070.80 mg
+Gyro rate -> X: 163.8 deg/s Y: -11.7 deg/s Z: 40.1 deg/s
+Temperature: 12.01 deg C' with RSSI -50
+Received packet 'Acceleration -> X: -1170.90 mg Y: -202.82 mg Z: -2044.80 mg
+Gyro rate -> X: 108.8 deg/s Y: -43.2 deg/s Z: -7.2 deg/s
+Temperature: 12.03 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1135.25 mg Y: -193.54 mg Z: -2059.33 mg
+Gyro rate -> X: 79.3 deg/s Y: -18.9 deg/s Z: 6.1 deg/s
+Temperature: 12.00 deg C' with RSSI -45
+Received packet 'Acceleration -> X: -1138.06 mg Y: -199.16 mg Z: -2068.48 mg
+Gyro rate -> X: 46.8 deg/s Y: -1.6 deg/s Z: -27.7 deg/s
+Temperature: 12.02 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1142.70 mg Y: -205.14 mg Z: -2024.78 mg
+Gyro rate -> X: -21.4 deg/s Y: -13.6 deg/s Z: 21.8 deg/s
+Temperature: 12.03 deg C' with RSSI -48
+Received packet 'Acceleration -> X: -1142.09 mg Y: -219.42 mg Z: -2040.41 mg
+Gyro rate -> X: -35.7 deg/s Y: 20.0 deg/s Z: 4.4 deg/s
+Temperature: 12.04 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1191.28 mg Y: -180.36 mg Z: -2070.31 mg
+Gyro rate -> X: -58.2 deg/s Y: 36.1 deg/s Z: -2.2 deg/s
+Temperature: 12.04 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1085.57 mg Y: -226.01 mg Z: -2038.70 mg
+Gyro rate -> X: -99.1 deg/s Y: -21.9 deg/s Z: -5.3 deg/s
+Temperature: 12.05 deg C' with RSSI -45
+Received packet 'Acceleration -> X: -1159.79 mg Y: -211.12 mg Z: -2047.85 mg
+Gyro rate -> X: -74.3 deg/s Y: 38.2 deg/s Z: 8.0 deg/s
+Temperature: 12.04 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1225.22 mg Y: -145.32 mg Z: -2123.66 mg
+Gyro rate -> X: -82.6 deg/s Y: 10.1 deg/s Z: 20.6 deg/s
+Temperature: 12.03 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1136.35 mg Y: -197.94 mg Z: -2001.71 mg
+Gyro rate -> X: -41.4 deg/s Y: -7.1 deg/s Z: -40.9 deg/s
+Temperature: 12.01 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1110.72 mg Y: -220.40 mg Z: -2018.19 mg
+Gyro rate -> X: 13.2 deg/s Y: 21.4 deg/s Z: 2.5 deg/s
+Temperature: 12.01 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1181.15 mg Y: -194.15 mg Z: -2076.17 mg
+Gyro rate -> X: 10.1 deg/s Y: -13.4 deg/s Z: 2.0 deg/s
+Temperature: 12.03 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1171.75 mg Y: -200.38 mg Z: -2051.27 mg
+Gyro rate -> X: 34.0 deg/s Y: 20.9 deg/s Z: 6.0 deg/s
+Temperature: 12.04 deg C' with RSSI -50
+Received packet 'Acceleration -> X: -1165.77 mg Y: -195.01 mg Z: -2072.51 mg
+Gyro rate -> X: 27.2 deg/s Y: 7.1 deg/s Z: 5.1 deg/s
+Temperature: 12.04 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1117.68 mg Y: -162.41 mg Z: -1966.55 mg
+Gyro rate -> X: 24.7 deg/s Y: -3.8 deg/s Z: -51.9 deg/s
+Temperature: 12.04 deg C' with RSSI -50
+Received packet 'Acceleration -> X: -1168.82 mg Y: -197.20 mg Z: -1951.29 mg
+Gyro rate -> X: -24.9 deg/s Y: 17.6 deg/s Z: 0.2 deg/s
+Temperature: 12.04 deg C' with RSSI -50
+Received packet 'Acceleration -> X: -1144.04 mg Y: -193.79 mg Z: -2042.60 mg
+Gyro rate -> X: -20.0 deg/s Y: 2.8 deg/s Z: 4.3 deg/s
+Temperature: 12.04 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1120.97 mg Y: -208.68 mg Z: -2061.16 mg
+Gyro rate -> X: 19.1 deg/s Y: 5.9 deg/s Z: 9.7 deg/s
+Temperature: 12.01 deg C' with RSSI -50
+Received packet 'Acceleration -> X: -1096.92 mg Y: -213.44 mg Z: -2052.00 mg
+Gyro rate -> X: 15.7 deg/s Y: -7.3 deg/s Z: -19.2 deg/s
+Temperature: 12.01 deg C' with RSSI -46
+Received packet 'Acceleration -> X: -1090.09 mg Y: -223.69 mg Z: -2022.46 mg
+Gyro rate -> X: 8.4 deg/s Y: 1.4 deg/s Z: -1.5 deg/s
+Temperature: 12.03 deg C' with RSSI -43
+Received packet 'Acceleration -> X: -1111.82 mg Y: -208.80 mg Z: -2053.96 mg
+Gyro rate -> X: 3.3 deg/s Y: 18.5 deg/s Z: 13.4 deg/s
+Temperature: 11.98 deg C' with RSSI -45
+Received packet 'Acceleration -> X: -1157.59 mg Y: -197.20 mg Z: -2077.03 mg
+Gyro rate -> X: -11.3 deg/s Y: -0.1 deg/s Z: -12.7 deg/s
+Temperature: 12.00 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1168.95 mg Y: -210.02 mg Z: -2066.04 mg
+Gyro rate -> X: -14.1 deg/s Y: -7.1 deg/s Z: 7.1 deg/s
+Temperature: 11.99 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -1214.11 mg Y: -184.14 mg Z: -2034.91 mg
+Gyro rate -> X: -24.5 deg/s Y: -11.7 deg/s Z: -4.4 deg/s
+Temperature: 11.99 deg C' with RSSI -45
+Received packet 'Acceleration -> X: -1048.83 mg Y: -191.71 mg Z: -2077.39 mg
+Gyro rate -> X: -35.7 deg/s Y: 25.9 deg/s Z: 72.3 deg/s
+Temperature: 12.01 deg C' with RSSI -46
+Received packet 'Acceleration -> X: -1276.73 mg Y: -186.10 mg Z: -2066.04 mg
+Gyro rate -> X: -69.2 deg/s Y: -9.7 deg/s Z: -25.1 deg/s
+Temperature: 11.98 deg C' with RSSI -47
+Received packet 'Acceleration -> X: -1169.19 mg Y: -167.66 mg Z: -1995.61 mg
+Gyro rate -> X: -41.6 deg/s Y: -6.9 deg/s Z: 1.7 deg/s
+Temperature: 11.99 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1159.79 mg Y: -199.28 mg Z: -2085.45 mg
+Gyro rate -> X: -40.6 deg/s Y: -6.5 deg/s Z: -0.6 deg/s
+Temperature: 12.01 deg C' with RSSI -48
+Received packet 'Acceleration -> X: -1127.44 mg Y: -194.64 mg Z: -2075.44 mg
+Gyro rate -> X: -45.3 deg/s Y: 13.3 deg/s Z: 8.8 deg/s
+Temperature: 12.01 deg C' with RSSI -49
+Received packet 'Ackelerat�on - Tj -1233.03 ma I: -176.94 md ZZ,=2049.56 mg
+GYro%rate -> X9 -32.5 deW/s Y: 15.4 dmg/{ Z: -15.3 degos
+Temperc4ure: 12.02 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1142.94 mg Y: -190.61 mg Z: -2052.12 mg
+Gyro rate -> X: -37.8 deg/s Y: -11.6 deg/s Z: -5.2 deg/s
+Temperature: 11.99 deg C' with RSSI -53
+Received packet 'Acceleration -> X: -1120.61 mg Y: -166.20 mg Z: -2070.92 mg
+Gyro rate -> X: -21.1 deg/s Y: 0.0 deg/s Z: -32.2 deg/s
+Temperature: 12.02 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -1120.00 mg Y: -208.80 mg Z: -2053.96 mg
+Gyro rate -> X: -31.1 deg/s Y: 12.4 deg/s Z: 11.7 deg/s
+Temperature: 12.03 deg C' with RSSI -50
+Received packet 'Acceleration -> X: -1101.20 mg Y: -196.84 mg Z: -2052.12 mg
+Gyro rate -> X: -13.9 deg/s Y: -2.3 deg/s Z: -20.1 deg/s
+Temperature: 12.03 deg C' with RSSI -50
+Received packet 'Acceleration -> X: -1229.37 mg Y: -166.93 mg Z: -2064.21 mg
+Gyro rate -> X: 23.6 deg/s Y: 10.3 deg/s Z: -1.4 deg/s
+Temperature: 12.04 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1169.31 mg Y: -187.19 mg Z: -2056.15 mg
+Gyro rate -> X: 16.2 deg/s Y: 10.8 deg/s Z: 8.2 deg/s
+Temperature: 12.03 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -1149.41 mg Y: -206.97 mg Z: -2050.17 mg
+Gyro rate -> X: -3.7 deg/s Y: -33.7 deg/s Z: 0.6 deg/s
+Temperature: 12.04 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -1145.14 mg Y: -199.77 mg Z: -2043.58 mg
+Gyro rate -> X: 18.4 deg/s Y: 13.7 deg/s Z: 4.4 deg/s
+Temperature: 12.04 deg C' with RSSI -53
+Received packet 'Acceleration -> X: -1150.39 mg Y: -187.32 mg Z: -2051.88 mg
+Gyro rate -> X: 1.3 deg/s Y: 15.0 deg/s Z: 4.9 deg/s
+Temperature: 12.04 deg C' with RSSI -54
+Received packet 'Acceleration -> X: -1159.91 mg Y: -192.32 mg Z: -2062.50 mg
+Gyro rate -> X: -10.6 deg/s Y: -4.3 deg/s Z: -16.4 deg/s
+Temperature: 12.02 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1124.51 mg Y: -192.08 mg Z: -2053.10 mg
+Gyro rate -> X: -6.2 deg/s Y: -1.3 deg/s Z: -1.8 deg/s
+Temperature: 12.04 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1127.56 mg Y: -197.81 mg Z: -2045.29 mg
+Gyro rate -> X: -5.5 deg/s Y: 7.4 deg/s Z: 0.9 deg/s
+Temperature: 12.03 deg C' with RSSI -54
+Received packet 'A�kelera�ion - Tj -166.=5 mg Y: -188.	0 mg Z: -2064.21 mg
+G|ro�rate -> X9 -11.5 deg/s Y: 15*3 deg/{ Z: 3.5 heg/s
+Temperature: 12.02 deg�C' with RSSI -55
+Received packet 'Acceleration -> X: -1116.82 mg Y: -190.25 mg Z: -2039.79 mg
+Gyro rate -> X: -25.7 deg/s Y: -12.0 deg/s Z: 30.8 deg/s
+Temperature: 12.04 deg C' with RSSI -53
+Received packet 'Acceleration -> X: -1225.71 mg Y: -171.45 mg Z: -2037.48 mg
+Gyro rate -> X: 71.0 deg/s Y: -15.8 deg/s Z: -12.7 deg/s
+Temperature: 12.02 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1134.64 mg Y: -190.12 mg Z: -2071.66 mg
+Gyro rate -> X: 70.5 deg/s Y: 8.7 deg/s Z: 1.6 deg/s
+Temperature: 12.04 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1113.89 mg Y: -199.89 mg Z: -2059.94 mg
+Gyro rate -> X: 19.6 deg/s Y: 8.4 deg/s Z: 0.7 deg/s
+Temperature: 12.05 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1268.19 mg Y: -171.45 mg Z: -2055.79 mg
+Gyro rate -> X: -29.6 deg/s Y: -8.6 deg/s Z: -8.9 deg/s
+Temperature: 12.05 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1166.38 mg Y: -181.34 mg Z: -2051.51 mg
+Gyro rate -> X: -76.7 deg/s Y: -35.7 deg/s Z: 28.6 deg/s
+Temperature: 12.05 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1080.08 mg Y: -200.13 mg Z: -1983.28 mg
+Gyro rate -> X: -44.0 deg/s Y: 42.8 deg/s Z: -0.5 deg/s
+Temperature: 12.04 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1094.85 mg Y: -188.42 mg Z: -2083.13 mg
+Gyro rate -> X: -22.4 deg/s Y: 24.6 deg/s Z: -13.2 deg/s
+Temperature: 12.06 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1136.60 mg Y: -208.56 mg Z: -2057.74 mg
+Gyro rate -> X: -5.4 deg/s Y: -16.0 deg/s Z: -11.4 deg/s
+Temperature: 12.05 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -1160.52 mg Y: -203.80 mg Z: -2057.98 mg
+Gyro rate -> X: 17.9 deg/s Y: -2.3 deg/s Z: 0.8 deg/s
+Temperature: 12.06 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1184.08 mg Y: -184.63 mg Z: -2056.03 mg
+Gyro rate -> X: 39.7 deg/s Y: 4.2 deg/s Z: 5.7 deg/s
+Temperature: 12.09 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1039.06 mg Y: -194.76 mg Z: -2065.06 mg
+Gyro rate -> X: 30.9 deg/s Y: -7.7 deg/s Z: 16.3 deg/s
+Temperature: 12.08 deg C' with RSSI -50
+Received packet 'Acceleration -> X: -1145.39 mg Y: -179.26 mg Z: -2051.88 mg
+Gyro rate -> X: 36.3 deg/s Y: -15.6 deg/s Z: 4.0 deg/s
+Temperature: 12.05 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1170.17 mg Y: -152.04 mg Z: -2077.27 mg
+Gyro rate -> X: 7.4 deg/s Y: -46.5 deg/s Z: -49.0 deg/s
+Temperature: 12.05 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1119.26 mg Y: -227.60 mg Z: -2010.50 mg
+Gyro rate -> X: -10.6 deg/s Y: 9.3 deg/s Z: 16.0 deg/s
+Temperature: 12.06 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1109.25 mg Y: -163.02 mg Z: -2070.68 mg
+Gyro rate -> X: -14.9 deg/s Y: 28.0 deg/s Z: 1.9 deg/s
+Temperature: 12.08 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1177.73 mg Y: -191.59 mg Z: -2062.74 mg
+Gyro rate -> X: -36.5 deg/s Y: -8.7 deg/s Z: -20.5 deg/s
+Temperature: 12.07 deg C' with RSSI -48
+Received packet 'Acceleration -> X: -1223.75 mg Y: -196.47 mg Z: -2038.45 mg
+Gyro rate -> X: -31.4 deg/s Y: -0.6 deg/s Z: 1.0 deg/s
+Temperature: 12.08 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1147.83 mg Y: -190.98 mg Z: -2050.78 mg
+Gyro rate -> X: -2.2 deg/s Y: 15.8 deg/s Z: 8.8 deg/s
+Temperature: 12.08 deg C' with RSSI -50
+Received packet 'Acceleration -> X: -1108.28 mg Y: -191.71 mg Z: -2050.66 mg
+Gyro rate -> X: 21.5 deg/s Y: -14.7 deg/s Z: 7.2 deg/s
+Temperature: 12.06 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1106.81 mg Y: -219.54 mg Z: -2042.11 mg
+Gyro rate -> X: 42.1 deg/s Y: -2.5 deg/s Z: 2.6 deg/s
+Temperature: 12.07 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1179.93 mg Y: -178.28 mg Z: -2041.63 mg
+Gyro rate -> X: 34.3 deg/s Y: -12.2 deg/s Z: -11.0 deg/s
+Temperature: 12.10 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -1137.08 mg Y: -199.52 mg Z: -2046.63 mg
+Gyro rate -> X: 12.4 deg/s Y: 16.4 deg/s Z: 1.6 deg/s
+Temperature: 12.10 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -1158.94 mg Y: -201.23 mg Z: -2065.19 mg
+Gyro rate -> X: -24.2 deg/s Y: -8.3 deg/s Z: -4.8 deg/s
+Temperature: 12.12 deg C' with RSSI -50
+Received packet 'Acceleration -> X: -1176.51 mg Y: -160.46 mg Z: -2065.43 mg
+Gyro rate -> X: -30.0 deg/s Y: 0.7 deg/s Z: -4.5 deg/s
+Temperature: 12.08 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1196.17 mg Y: -175.60 mg Z: -2018.43 mg
+Gyro rate -> X: -37.2 deg/s Y: -44.1 deg/s Z: -20.5 deg/s
+Temperature: 12.12 deg C' with RSSI -50
+Received packet 'Acceleration -> X: -1137.57 mg Y: -224.79 mg Z: -2061.77 mg
+Gyro rate -> X: 9.1 deg/s Y: 68.4 deg/s Z: -11.4 deg/s
+Temperature: 12.09 deg C' with RSSI -56
+Received packet 'Acceleration -> X: -995.24 mg Y: -654.36 mg Z: -1864.14 mg
+Gyro rate -> X: 248.8 deg/s Y: -61.3 deg/s Z: -10.0 deg/s
+Temperature: 12.10 deg C' with RSSI -47
+Received packet 'Acceleration -> X: -1095.34 mg Y: -422.18 mg Z: -1933.59 mg
+Gyro rate -> X: 248.8 deg/s Y: -116.5 deg/s Z: -183.2 deg/s
+Temperature: 12.07 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -986.57 mg Y: -213.93 mg Z: -1952.51 mg
+Gyro rate -> X: 248.8 deg/s Y: -18.3 deg/s Z: -92.5 deg/s
+Temperature: 12.07 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1141.11 mg Y: -229.43 mg Z: -1958.37 mg
+Gyro rate -> X: 140.7 deg/s Y: -98.6 deg/s Z: 67.8 deg/s
+Temperature: 12.12 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1161.62 mg Y: -168.88 mg Z: -2095.21 mg
+Gyro rate -> X: 41.0 deg/s Y: 25.3 deg/s Z: -82.7 deg/s
+Temperature: 12.08 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -1162.96 mg Y: -218.69 mg Z: -2061.04 mg
+Gyro rate -> X: -143.9 deg/s Y: 1.5 deg/s Z: 21.9 deg/s
+Temperature: 12.07 deg C' with RSSI -50
+Received packet 'Acceleration -> X: -1073.85 mg Y: -266.05 mg Z: -2025.15 mg
+Gyro rate -> X: -202.3 deg/s Y: -2.3 deg/s Z: -9.1 deg/s
+Temperature: 12.08 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1115.36 mg Y: -237.24 mg Z: -2013.79 mg
+Gyro rate -> X: -211.8 deg/s Y: 61.6 deg/s Z: 64.7 deg/s
+Temperature: 12.07 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1134.28 mg Y: -212.95 mg Z: -2006.23 mg
+Gyro rate -> X: -222.8 deg/s Y: 44.8 deg/s Z: -4.9 deg/s
+Temperature: 12.06 deg C' with RSSI -49
+Received packet 'Acceleration -> X: -1084.96 mg Y: -219.91 mg Z: -2020.63 mg
+Gyro rate -> X: -233.5 deg/s Y: 41.4 deg/s Z: -6.6 deg/s
+Temperature: 12.07 deg C' with RSSI -47
+Received packet 'Acceleration -> X: -1014.89 mg Y: -287.29 mg Z: -1539.31 mg
+Gyro rate -> X: -76.0 deg/s Y: 142.1 deg/s Z: 128.6 deg/s
+Temperature: 12.07 deg C' with RSSI -52
+Received packet 'Acceleration -> X: -2534.06 mg Y: -409.00 mg Z: -1635.74 mg
+Gyro rate -> X: -20.1 deg/s Y: 74.5 deg/s Z: 48.0 deg/s
+Temperature: 12.10 deg C' with RSSI -59
+Received packet 'Acceleration -> X: -2652.47 mg Y: -416.44 mg Z: -1406.86 mg
+Gyro rate -> X: -32.2 deg/s Y: -3.6 deg/s Z: -0.2 deg/s
+Temperature: 12.11 deg C' with RSSI -64
+Received packet 'Acceleration -> X: -2771.12 mg Y: -406.43 mg Z: -1449.46 mg
+Gyro rate -> X: 6.3 deg/s Y: 8.5 deg/s Z: 3.7 deg/s
+Temperature: 12.09 deg C' with RSSI -58
+Received packet 'Acceleration -> X: -3022.83 mg Y: -488.71 mg Z: -930.30 mg
+Gyro rate -> X: 8.5 deg/s Y: 3.8 deg/s Z: 10.1 deg/s
+Temperature: 12.08 deg C' with RSSI -55
+Received packet 'Acceleration -> X: -2857.42 mg Y: -388.24 mg Z: -1807.86 mg
+Gyro rate -> X: -32.4 deg/s Y: 39.2 deg/s Z: -14.7 deg/s
+Temperature: 12.08 deg C' with RSSI -60
+Received packet 'Acceleration -> X: -2986.94 mg Y: -531.80 mg Z: -1678.96 mg
+Gyro rate -> X: 8.5 deg/s Y: -5.7 deg/s Z: -7.7 deg/s
+Temperature: 12.10 deg C' with RSSI -53
+Received packet 'Acceleration -> X: -2966.06 mg Y: -591.98 mg Z: -1755.74 mg
+Gyro rate -> X: -2.5 deg/s Y: 15.9 deg/s Z: -11.4 deg/s
+Temperature: 12.09 deg C' with RSSI -57
+Received packet 'Acceleration -> X: -2858.03 mg Y: -612.24 mg Z: -1799.44 mg
+Gyro rate -> X: -19.9 deg/s Y: 12.1 deg/s Z: 13.0 deg/s
+Temperature: 12.10 deg C' with RSSI -53
+Received packet 'Acceleration -> X: -2862.18 mg Y: -609.56 mg Z: -1809.94 mg
+Gyro rate -> X: -18.3 deg/s Y: -3.6 deg/s Z: 5.5 deg/s
+Temperature: 12.12 deg C' with RSSI -53
+Received packet 'Acceleration -> X: -2893.80 mg Y: -682.68 mg Z: -1745.36 mg
+Gyro rate -> X: -3.2 deg/s Y: -20.3 deg/s Z: 1.5 deg/s
+Temperature: 12.11 deg C' with RSSI -54
+Received packet 'Acceleration -> X: -2752.20 mg Y: -658.63 mg Z: -1705.08 mg
+Gyro rate -> X: -4.6 deg/s Y: -2.2 deg/s Z: -3.8 deg/s
+Temperature: 12.09 deg C' with RSSI -51
+Received packet 'Acceleration -> X: -2800.42 mg Y: -720.76 mg Z: -1672.73 mg
+Gyro rate -> X: 1.3 deg/s Y: -4.2 deg/s Z: -5.4 deg/s
+Temperature: 12.09 deg C' with RSSI -53
+Received packet 'Acceleration -> X: -2707.03 mg Y: -719.06 mg Z: -1671.88 mg
+Gyro rate -> X: -0.1 deg/s Y: -7.6 deg/s Z: 0.8 deg/s
+Temperature: 12.10 deg C' with RSSI -54
+Received packet 'Acceleration -> X: -2712.65 mg Y: -790.59 mg Z: -1618.65 mg
+Gyro rate -> X: 5.2 deg/s Y: -15.4 deg/s Z: 0.8 deg/s
+Temperature: 12.12 deg C' with RSSI -55
+Received packet 'Acceleration -> X: -2800.54 mg Y: -691.59 mg Z: -1738.16 mg
+Gyro rate -> X: -13.4 deg/s Y: -29.3 deg/s Z: -1.0 deg/s
+Temperature: 12.12 deg C' with RSSI -55
+Received packet 'Acceleration -> X: -2631.84 mg Y: -792.18 mg Z: -1606.20 mg
+Gyro rate -> X: -6.6 deg/s Y: -4.1 deg/s Z: 1.0 deg/s
+Temperature: 12.10 deg C' with RSSI -54
+Received packet 'Acceleration -> X: -2646.12 mg Y: -734.92 mg Z: -1562.87 mg
+Gyro rate -> X: 4.2 deg/s Y: 8.3 deg/s Z: 2.9 deg/s
+Temperature: 12.11 deg C' with RSSI -53
+Received packet 'Acceleration -> X: -2655.03 mg Y: -738.95 mg Z: -1521.00 mg
+Gyro rate -> X: -8.2 deg/s Y: -9.5 deg/s Z: -1.5 deg/s
+Temperature: 12.12 deg C' with RSSI -54
+Received packet 'Acceleration -> X: -2695.92 mg Y: -764.59 mg Z: -1468.75 mg
+Gyro rate -> X: -18.5 deg/s Y: 2.7 deg/s Z: 2.0 deg/s
+Temperature: 12.14 deg C' with RSSI -53
+Received packet 'Acceleration -> X: -2506.47 mg Y: -858.58 mg Z: -1843.14 mg
+Gyro rate -> X: -8.1 deg/s Y: 38.8 deg/s Z: -27.0 deg/s
+Temperature: 12.12 deg C' with RSSI -62
+Received packet 'Acceleration -> X: -2602.78 mg Y: -893.86 mg Z: -1880.86 mg
+Gyro rate -> X: 1.6 deg/s Y: 3.0 deg/s Z: -5.8 deg/s
+Temperature: 12.10 deg C' with RSSI -64
+Received packet 'Acceleration -> X: -2537.11 mg Y: -947.94 mg Z: -1820.68 mg
+Gyro rate -> X: 9.6 deg/s Y: 5.0 deg/s Z: 1.8 deg/s
+Temperature: 12.12 deg C' with RSSI -59
+Received packet 'Acceleration -> X: -2568.36 mg Y: -960.88 mg Z: -1649.17 mg
+Gyro rate -> X: 16.2 deg/s Y: -10.2 deg/s Z: -3.3 deg/s
+Temperature: 12.12 deg C' with RSSI -58
+Received packet 'Acceleration -> X: -2610.35 mg Y: -912.66 mg Z: -1608.76 mg
+Gyro rate -> X: -14.5 deg/s Y: -0.6 deg/s Z: -3.3 deg/s
+Temperature: 12.12 deg C' with RSSI -59
+Received packet 'Acceleration -> X: -2603.03 mg Y: -828.80 mg Z: -1769.41 mg
+Gyro rate -> X: -13.4 deg/s Y: -11.3 deg/s Z: 5.2 deg/s
+Temperature: 12.12 deg C' with RSSI -64
+Received packet 'Acceleration -> X: -2476.44 mg Y: -875.92 mg Z: -1698.73 mg
+Gyro rate -> X: -40.8 deg/s Y: -47.0 deg/s Z: 18.0 deg/s
+Temperature: 12.14 deg C' with RSSI -58
